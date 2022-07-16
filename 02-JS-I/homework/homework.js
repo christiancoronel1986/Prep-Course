@@ -44,7 +44,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   const resta = x -y;
-  return resta
+  return resta;
   
 }
 
@@ -52,7 +52,7 @@ function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   const multiplica = x * y;
-  return multiplica
+  return multiplica;
   
 }
 
@@ -60,7 +60,7 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   const divide = x/ y;
- return divide
+ return divide;
 }
 
 function sonIguales(x, y) {
@@ -68,9 +68,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x == y){
-    return true
+    return true;
   }else{
-    return false
+    return false;
   }
   
 }
@@ -80,9 +80,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(str1.length == str2.length){
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
   
 }
@@ -92,9 +92,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -103,9 +103,9 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -113,7 +113,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   const resto = x % y;
-  return resto
+  return resto;
 }
 
 function esPar(num) {
@@ -122,9 +122,9 @@ function esPar(num) {
   // Tu código:
   
   if (num % 2 === 0) {
-    return true
+    return true;
   }else{
-    return false
+    return false;
   }
 
   }
@@ -134,9 +134,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 !== 0){
-    return true
+    return true;
   }else{
-    return false
+    return false;
   }
 
 }
@@ -145,38 +145,38 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  const res = num ** 2
-  return res
+  const res = num ** 2;
+  return res;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  const res1 = num ** 3
-  return res1
+  const res1 = num ** 3;
+  return res1;
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  const res = num ** exponent
-  return res
+  const res = num ** exponent;
+  return res;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  const res = Math.round(num)
-  return res 
+  const res = Math.round(num);
+  return res;
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  const res = Math.ceil(num)
-  return res
+  const res = Math.ceil(num);
+  return res;
 }
 
 function numeroRandom() {
@@ -194,7 +194,7 @@ function esPositivo(numero) {
     return 'Es positivo';
   } else if (numero < 0){
     return "Es negativo";
-  } return false
+  } return false;
   
 }
 
@@ -260,16 +260,16 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra > 1){
-    return "Dato incorrecto"
+    return "Dato incorrecto";
   }else if(
         letra == "a" 
      || letra == "e" 
      || letra == "i" 
      || letra == "o" 
      || letra == "u"){
-    return "Es vocal"
+    return "Es vocal";
   }else{
-    return "Dato incorrecto"
+    return "Dato incorrecto";
   }
   
 }
