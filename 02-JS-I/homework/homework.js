@@ -261,7 +261,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1){
     return "Dato incorrecto";
-  }else if(
+  }if(
         letra == "a" 
      || letra == "e" 
      || letra == "i" 
